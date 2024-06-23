@@ -10,7 +10,7 @@ StudentFrame::StudentFrame(const wxString& title) :wxFrame(nullptr, wxID_ANY, ti
 {
 	SetWindowStyle(GetWindowStyle() & ~wxMAXIMIZE_BOX);
 	CreateControls();
-	addSavedStudents("C:\\Users\\Acer Nitro 5\\Desktop\\Students.txt");
+	addSavedStudents("Students.txt");
 	BinEventHandlers();
 }
 
@@ -53,7 +53,7 @@ void StudentFrame::OnStudentClosed(wxCloseEvent& evt)
 
 	}
 
-	savestudent(s, "C:\\Users\\Acer Nitro 5\\Desktop\\Students.txt");
+	savestudent(s, "Students.txt");
 	evt.Skip();
 }
 
