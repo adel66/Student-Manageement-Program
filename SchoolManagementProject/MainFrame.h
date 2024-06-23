@@ -22,7 +22,7 @@ public:
 	wxStaticText* MainText;
 	wxStaticText* MusicVoltext;
 	wxSlider* MusicVolslider;
-	wxStaticBitmap* image;
+	//wxStaticBitmap* image;
 	wxStaticText* Helptext;
 };
 

@@ -31,8 +31,8 @@ void MainFrame::CreateControls()
 	Contactbtn = new wxButton(mainpanel, wxID_ANY, "Contact Us", wxPoint(10, 460), wxSize(200, 75));
 	MusicVoltext = new wxStaticText(mainpanel, wxID_ANY,"Music Volume", wxPoint(10, 630), wxSize(200, 75));
 	MusicVolslider = new wxSlider(mainpanel, wxID_ANY, 25, 0, 100, wxPoint(10, 650), wxSize(200, 75));
-	wxBitmap bitmap("D:\\Projectvs\\Solutions\\SchoolManagementProject\\Pics\\Screenshot 2024-06-11 235756.png", wxBITMAP_TYPE_PNG);
-	image = new wxStaticBitmap(mainpanel, wxID_ANY, bitmap, wxPoint(400,240), wxDefaultSize);
+	//wxBitmap bitmap("D:\\Projectvs\\Solutions\\SchoolManagementProject\\Pics\\Screenshot 2024-06-11 235756.png", wxBITMAP_TYPE_PNG);
+	//image = new wxStaticBitmap(mainpanel, wxID_ANY, bitmap, wxPoint(400,240), wxDefaultSize);
 	wxFont Helpfont(wxFontInfo(wxSize(0, 13)).Bold());
 	Helptext = new wxStaticText(mainpanel, wxID_ANY, "H : Help", wxPoint(550, 670), wxDefaultSize);
 	Helptext->SetFont(Helpfont);
